@@ -1,16 +1,47 @@
 {
     "name": "space-mvc/space-mvc-active-record",
-    "type": "library",
-    "description": "php-activerecord is an open source ORM library based on the ActiveRecord pattern.",
-    "keywords": ["activerecord", "orm"],
-    "homepage": "http://www.phpactiverecord.org/",
+    "type": "project",
+    "description": "This is the space mvc framework",
+    "keywords": [
+        "Space Mvc",
+        "Framework"
+    ],
+    "version" : "0.0.1",
+    "homepage": "https://github.com/space-mvc/space-mvc-framework",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Space MVC",
+            "email": "space-mvc@gmail.com",
+            "homepage": "http://space-mvc.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "php": ">=5.3.0"
+        "php" : "~8.0"
     },
-    "require-dev": {},
+    "require-dev": {
+    },
     "autoload": {
-        "files": [ "ActiveRecord.php" ]
+        "psr-4": {
+            
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            
+        }
+    },
+    "scripts": {
+       
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
     },
     "minimum-stability": "stable",
     "prefer-stable": true
