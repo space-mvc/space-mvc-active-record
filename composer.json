@@ -11,5 +11,7 @@
     "require-dev": {},
     "autoload": {
         "files": [ "ActiveRecord.php" ]
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
