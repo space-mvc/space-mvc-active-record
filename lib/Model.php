@@ -431,6 +431,8 @@ class Model
 				return $this->{$item['to']}->{$delegated_name} = $value;
 		}
 
+		return $this->$name = $value;
+
 		throw new UndefinedPropertyException(get_called_class(),$name);
 	}
 
